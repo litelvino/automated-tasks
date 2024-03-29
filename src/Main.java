@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         List<String> listAnimeWallpaper = listAnimeWallpaper();
+
         List<String> listAnimeWallpaperUrl = new ArrayList<>();
 
         listAnimeWallpaper.forEach(
