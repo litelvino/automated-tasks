@@ -10,7 +10,9 @@ public class Main {
         List<String> listAnimeWallpaper = listAnimeWallpaper();
         List<String> listAnimeWallpaperUrl = new ArrayList<>();
 
-        listAnimeWallpaper.forEach(animeWallpaper -> listAnimeWallpaperUrl.add(URL_WALLPAPER.replace("nomeWallpaper", animeWallpaper)));
+        listAnimeWallpaper.forEach(
+            animeWallpaper -> listAnimeWallpaperUrl.add(URL_WALLPAPER.replace("nomeWallpaper", animeWallpaper))
+        );
 
         listAnimeWallpaperUrl.forEach(System.out::println);
     }
